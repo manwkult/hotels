@@ -1,0 +1,18 @@
+@import '../_variables.scss';
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: $background-color;
+}
+
+.header {
+  height: 70px;
+  margin: auto;
+  padding: 10px;
+  background-color: $header-color;
+}
+
+.content {
+  margin: 20px;
+}

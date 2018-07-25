@@ -1,0 +1,47 @@
+@import '../_variables.scss';
+
+.card {
+  margin: 10px 0;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+  padding: 0.45rem;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-info {
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  border-left: 1px dashed $border-color
+}
+
+.card-text-price {
+  font-size: 14px;
+}
+
+.card-price {
+  color: $price-text-color;
+}
+
+.card-amenities {
+  width: 16px;
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 991px) {
+  .card-info {
+    margin-top: 15px;
+    border-left: none;
+    border-top: 1px dashed $border-color
+  }
+
+  .card-name {
+    margin-top: 15px;
+  }
+}

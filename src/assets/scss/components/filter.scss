@@ -1,0 +1,26 @@
+@import '../_variables.scss';
+
+.filter {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-filter {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.search {
+  margin-top: 4px;
+  text-align: right;
+}
+
+.icon-search {
+  fill: #007bff;
+}
+
+.icon-stars {
+  fill: #007bff;
+}
