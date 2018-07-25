@@ -15,8 +15,8 @@
     "hoteles",
     "busqueda"
   ],
-  "author": "Jose Manuel Rios",
-  "license": "MIT",
+  "author": "Jose Manuel Rios <manuel_ldsc@hotmail.com>",
+  "license": "ISC",
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.1",
